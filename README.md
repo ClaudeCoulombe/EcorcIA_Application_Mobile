@@ -7,7 +7,7 @@
 Cours VIARENA - applications de la VIsion ARtificielle dans les REssources NAturelles.
 
 Dans ce laboratoire vous allez créer une application mobile capable d'identifier
-un arbre à partir de l'image de son écorce captée par la caméra du téléphone.
+un arbre à partir de l'image de son écorce captée par la caméra d'un téléphone Android.
 
 ## Prérequis
 
@@ -21,9 +21,9 @@ un arbre à partir de l'image de son écorce captée par la caméra du télépho
     <li><a href="https://www.tensorflow.org/lite/guide/model_maker" target='_blank'>TensorFlow Lite Model Maker</a> - site Google / Guide TensorFlow pour mobile et objet connecté</li>
     <li><a href="https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0" target='_blank'>Recognize Flowers with TensorFlow Lite on Android</a> - Un Codelabs de Google Developers par Hoi Lam (auteur d'une refonte), Yash Katariya (auteur original)</li>
     <li>Code source original sur GitHUB: <a href="https://github.com/hoitab/TFLClassify" target='_blank'>https://github.com/hoitab/TFLClassify</a></li>
-    <li>Copyright (c) 2019-2022, The TensorFlow Authors</li>
+    <li>Copyright (c) 2019-2024, The TensorFlow Authors</li>
     <li>Copyright (c) 2021, Hoi Lam, Yash Katariya</li>
-    <li>Copyright (c) 2022, Claude COULOMBE, adaptation et mise à jour du code</li>
+    <li>Copyright (c) 2022-2024, Claude COULOMBE, adaptation et mise à jour du code</li>
   </ul>
 </ul>
 
@@ -35,16 +35,19 @@ un arbre à partir de l'image de son écorce captée par la caméra du télépho
 
 ## Support
 
+**Attention!** Ce laboratoire ne s'exécute pas dans Google Colab, ni sur un serveur distant, ni dans un carnet IPython. Il nécessite l'installation de l'environnement de programmation « Android Studio » sur votre poste de travail. De plus, vous devez disposer d'un téléphone intelligent Android relativement récent (système Android 8 ou plus récent) pour tester l'application résultante.
+
+Vous devez être conscient que nous ne pourrons offrir aucun support technique. Aussi, ce genre d'application a un durée de vie assez courte, de l'ordre de 18 mois à 2 ans à cause de l'évolution rapide des technologies sous-jacentes. D'ailleurs nous avons dû mettre à jour le code en 2024.
+
 - Stack Overflow: https://stackoverflow.com/questions/tagged/tensorflow-lite+android-studio
 
 - Cours VIARENA: Vous devez comprendre que nous ne pourrons offrir aucun support technique
 en dehors du support communautaire du forum de ce cours.
 
-
 ## Licence
 
 Copyright (C) 2020 The Android Open Source Project<br/>
-Copyright (C) 2022 Claude COULOMBE
+Copyright (C) 2022-2024 Claude COULOMBE
 
 <hr style="line-height=2;"/>
 Sous licence Apache License, Version 2.0 (la "Licence");
